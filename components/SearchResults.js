@@ -12,7 +12,7 @@ function SearchResults({ results }) {
       {results.items?.map((result) => (
         <div className="max-w-xl mb-8" key={result.link}>
           <div className="group">
-            <a className="text-sm" href={result.link} target="_blank">
+            <a className="text-sm" href={result.link}>
               {result.formattedUrl}
             </a>
 
