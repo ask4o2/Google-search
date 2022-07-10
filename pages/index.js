@@ -48,11 +48,7 @@ export default function Home() {
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
 
           {/* avatar */}
-          <Avatar
-            url={
-              "https://media-exp1.licdn.com/dms/image/C5603AQGPuMl57nd_4Q/profile-displayphoto-shrink_200_200/0/1641757539844?e=1660780800&v=beta&t=SimjQPOemagSFcQGpJcN0uiD47Gtiig7ugZ2oZH1U5M"
-            }
-          />
+          <Avatar url="/profile_pic.jpg" />
         </div>
       </header>
 

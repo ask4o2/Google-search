@@ -52,10 +52,7 @@ function Header({}) {
           </button>
         </form>
 
-        <Avatar
-          url="https://media-exp1.licdn.com/dms/image/C5603AQGPuMl57nd_4Q/profile-displayphoto-shrink_200_200/0/1641757539844?e=1660780800&v=beta&t=SimjQPOemagSFcQGpJcN0uiD47Gtiig7ugZ2oZH1U5M"
-          className="ml-auto"
-        />
+        <Avatar url="/profile_pic.jpg" className="ml-auto" />
       </div>
       {/* header options */}
       <HeaderOptions />
